@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class ProdiController extends Controller
 {
-    public function Prodi1() {
-        return 'Ini adalah halaman Manajemen Informatika';
+    public function prodi1() {
+        return view('polinema.mi');
     }
 
-    public function Prodi2() {
-        return 'Ini adalah halaman Teknik Informatika';
+    public function prodi2() {
+        return view('polinema.ti');
     }
 }

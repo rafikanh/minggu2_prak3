@@ -7,17 +7,17 @@ use Illuminate\Http\Request;
 class SaranaController extends Controller
 {
     public function Sarana1() {
-        return 'Ini adalah halaman sarana perkantoran';
+        return view('polinema.perkantoran');
     }
 
     public function Sarana2() {
-        return 'Ini adalah halaman sarana laboratorium';
+        return view('polinema.laboratorium');
     }
     public function Sarana3() {
-        return 'Ini adalah halaman sarana kelas';
+        return view('polinema.kelas');
     }
 
     public function Sarana4() {
-        return 'Ini adalah halaman sarana lainnya';
+        return view('polinema.lainnya');
     }
 }
